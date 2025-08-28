@@ -1,0 +1,131 @@
+body {
+  background: #000;
+  color: #eee;
+  font-family: monospace;
+  padding: 20px;
+}
+
+h1.glitch {
+  font-size: 3em;
+  color: #ff0044;
+  text-shadow: 2px 2px #00ffff, -2px -2px #ffff00;
+}
+
+.artist {
+  color: #aaa;
+  font-size: 1.2em;
+}
+
+.yellow {
+  color: #ffeb3b;
+}
+.red {
+  color: #ff1744;
+}
+.blue {
+  color: #2979ff;
+}
+.green {
+  color: #00e676;
+}
+.orange {
+  color: #ff9100;
+}
+.purple {
+  color: #ba68c8;
+}
+
+.big {
+  font-size: 1.8em;
+}
+.huge {
+  font-size: 2.5em;
+}
+.tiny {
+  font-size: 0.8em;
+}
+.italic {
+  font-style: italic;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.rainbow {
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.glow {
+  color: #fff;
+  text-shadow: 0 0 10px #39ff14, 0 0 20px #00e5ff;
+}
+
+.spin {
+  display: inline-block;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.neon {
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 15px #ff00ff;
+  font-size: 1.3em;
+}
+
+.flame {
+  color: #ff4500;
+  text-shadow: 0 0 5px #ff6347, 0 0 15px #ff0000, 0 0 30px #ff8c00;
+  font-weight: bold;
+}
+
+.enemy {
+  color: #ff0080;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.final {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: cyan;
+  text-align: center;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    color: cyan;
+  }
+  to {
+    transform: scale(1.1);
+    color: lime;
+  }
+}
+
+.chaos {
+  font-size: 1.4em;
+  background: #111;
+  border: 2px dashed magenta;
+  padding: 5px;
+}
